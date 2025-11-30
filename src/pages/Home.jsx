@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+
 import Research from './Research';
 import People from './People';
 import LabEquipment from './LabEquipment';
@@ -54,16 +54,41 @@ const Home = () => {
                     transition={{ duration: 0.6, delay: 0.6 }}
                     style={{ display: 'flex', gap: '1rem' }}
                 >
-                    <Link to="/research">
-                        <button className="btn">
-                            Explore Research
-                        </button>
-                    </Link>
-                    <Link to="/people">
-                        <button className="btn" style={{ background: 'transparent', border: '1px solid var(--primary-color)', color: 'var(--primary-color)' }}>
-                            Meet the Team
-                        </button>
-                    </Link>
+                    <button
+                        className="btn"
+                        onClick={() => {
+                            const element = document.getElementById('research');
+                            if (element) {
+                                const headerOffset = 45;
+                                const elementPosition = element.getBoundingClientRect().top;
+                                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                                window.scrollTo({
+                                    top: offsetPosition,
+                                    behavior: "smooth"
+                                });
+                            }
+                        }}
+                    >
+                        Explore Research
+                    </button>
+                    <button
+                        className="btn"
+                        style={{ background: 'transparent', border: '1px solid var(--primary-color)', color: 'var(--primary-color)' }}
+                        onClick={() => {
+                            const element = document.getElementById('people');
+                            if (element) {
+                                const headerOffset = 45;
+                                const elementPosition = element.getBoundingClientRect().top;
+                                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                                window.scrollTo({
+                                    top: offsetPosition,
+                                    behavior: "smooth"
+                                });
+                            }
+                        }}
+                    >
+                        Meet the Team
+                    </button>
                 </motion.div>
             </section>
 
