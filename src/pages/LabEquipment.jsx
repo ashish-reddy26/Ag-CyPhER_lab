@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
 
 const equipmentList = [
-    { name: "Amiga Robot", image: "/images/equipment/images/amiga1.jpeg", description: "Agricultural robot for autonomous tasks." },
-    { name: "DJI Drone", image: "/images/equipment/images/dji_drone.png", description: "Aerial surveillance and data collection." },
-    { name: "DJI Drone V2", image: "/images/equipment/images/dji_drone2.png", description: "Advanced aerial imaging platform." },
-    { name: "Hyperspectral Camera", image: "/images/equipment/images/hyperspectral_camera.png", description: "Imaging for plant health analysis." },
-    { name: "LiDAR Sensor", image: "/images/equipment/images/lidar.jpg", description: "3D mapping and obstacle detection." },
-    { name: "ZED X Mini Stereo Camera", image: "/images/equipment/images/zed_x_mini_stereo_camera.jpg", description: "Depth perception for robotics." },
+    { name: "Amiga Robot", image: "/Ag-CyPhER_lab/images/equipment/images/amiga1.jpeg", description: "Agricultural robot for autonomous tasks." },
+    { name: "DJI Drone", image: "/Ag-CyPhER_lab/images/equipment/images/dji_drone.png", description: "Aerial surveillance and data collection." },
+    { name: "DJI Drone V2", image: "/Ag-CyPhER_lab/images/equipment/images/dji_drone2.png", description: "Advanced aerial imaging platform." },
+    { name: "Hyperspectral Camera", image: "/Ag-CyPhER_lab/images/equipment/images/hyperspectral_camera.png", description: "Imaging for plant health analysis." },
+    { name: "LiDAR Sensor", image: "/Ag-CyPhER_lab/images/equipment/images/lidar.jpg", description: "3D mapping and obstacle detection." },
+    { name: "ZED X Mini Stereo Camera", image: "/Ag-CyPhER_lab/images/equipment/images/zed_x_mini_stereo_camera.jpg", description: "Depth perception for robotics." },
 ];
 
 const EquipmentCard = ({ name, image, description }) => (

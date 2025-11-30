@@ -4,7 +4,7 @@ const projects = [
     {
         title: "Blueberry Yield Prediction Using Machine Learning and Vision-Based Deep Learning Methods",
         description: "Developing a multi-model strategy integrating Deep Learning (YOLO11, DINOv3) and Machine Learning to accurately predict blueberry yield and maturity. Our approach combines phenotypic traits and structural analysis to achieve high accuracy in genotype classification and yield estimation.",
-        image: "/images/research_data/Research1_images/Picture1.png",
+        image: "/Ag-CyPhER_lab/images/research_data/Research1_images/Picture1.png",
         tags: ["Machine Learning", "Vision Foundational Models", "DINOv3", "Yield Prediction"],
         color: "#e7f0f8ff", // Light Slate 100
         borderColor: "#e7f0f8ff" // Slate 200
@@ -12,15 +12,15 @@ const projects = [
     {
         title: "In-Field Pod Counting Using 3D Gaussian Splatting (3DGS) and SAM Towards Lima Bean Yield Prediction",
         description: "Utilizing robotic multi-view imaging to develop a 3D pod counting system for Lima beans. This research evaluates 2D vs 3D counting approaches and assesses the correlation between 3D pod counts and final yield.",
-        image: "/images/research_data/Research2_images/gif_3dgs.gif",
+        image: "/Ag-CyPhER_lab/images/research_data/Research2_images/gif_3dgs.gif",
         tags: ["3D Reconstruction", "Gaussian Splatting", "SAM", "Yield Assessment"],
-        color: "#fffef0ff", 
+        color: "#fffef0ff",
         borderColor: "#fffef0ff"
     },
     {
         title: "Autonomous Navigation",
         description: "Developed an autonomous SLAM navigation pipeline for GPS-denied environments like greenhouses. Integrated Livox MID360 LiDAR on the Amiga Robot with ROS 2 Nav2 stack and STVL for robust obstacle detection and collision avoidance.",
-        image: "/images/equipment/images/amiga1.jpeg",
+        image: "/Ag-CyPhER_lab/images/equipment/images/amiga1.jpeg",
         tags: ["SLAM", "LiDAR", "Autonomous Navigation"],
         color: "#fef2f2", // Light Red 50
         borderColor: "#fef2f2" // Red 100

@@ -18,7 +18,7 @@ const Home = () => {
                 justifyContent: 'center',
                 alignItems: 'center',
                 textAlign: 'center',
-                backgroundImage: 'linear-gradient(rgba(5, 26, 26, 0.6), rgba(5, 26, 26, 0.7)), url("/images/group_images/group_img1.jpeg")',
+                backgroundImage: 'linear-gradient(rgba(5, 26, 26, 0.6), rgba(5, 26, 26, 0.7)), url("/Ag-CyPhER_lab/images/group_images/group_img1.jpeg")',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 padding: '0 1rem',

@@ -33,7 +33,7 @@ const People = () => {
         name: "Yin Bao",
         role: "Assistant Professor of Digital Agriculture",
         bio: "Dr. Yin Bao is currently an Assistant Professor in both Plant and Soil Sciences and Mechanical Engineering.",
-        image: "/images/head_shots/dr_bao_advisor_headshot.jpeg",
+        image: "/Ag-CyPhER_lab/images/head_shots/dr_bao_advisor_headshot.jpeg",
         links: { linkedin: "https://www.linkedin.com/in/yin-bao-220a1658", scholar: "https://scholar.google.com/citations?user=lZnlIDQAAAAJ&hl=en", email: "yinbao@udel.edu" }
     };
 
@@ -42,14 +42,14 @@ const People = () => {
             name: "Puranjit Singh",
             role: "PhD Candidate - Third Year",
             bio: "Plant and Soil Sciences",
-            image: "/images/head_shots/puran_headshot.jpeg",
+            image: "/Ag-CyPhER_lab/images/head_shots/puran_headshot.jpeg",
             links: { linkedin: "https://www.linkedin.com/in/puranjit-singh-94303813a", scholar: "https://scholar.google.com/citations?user=_wA1fKcAAAAJ&hl=en", github: "https://github.com/Puranjit", email: "puran@udel.edu" }
         },
         {
             name: "Ashish Reddy M",
             role: "PhD Student - First Year",
             bio: "Plant and Soil Sciences",
-            image: "/images/head_shots/ashish_headshot.jpeg",
+            image: "/Ag-CyPhER_lab/images/head_shots/ashish_headshot.jpeg",
             links: { linkedin: "https://www.linkedin.com/in/ashishreddy26", scholar: "https://scholar.google.com/citations?user=JXjCuBUAAAAJ&hl=en", github: "https://github.com/ashish-reddy26", email: "ashishr@udel.edu" }
         },
     ];
@@ -59,7 +59,7 @@ const People = () => {
             name: "Annamalai Muthupalaniappan",
             role: "Masters in Robotics (2023-2025)",
             bio: "Research Assistant",
-            image: "/images/head_shots/annamalai_headshot.png",
+            image: "/Ag-CyPhER_lab/images/head_shots/annamalai_headshot.png",
             links: { linkedin: "https://www.linkedin.com/in/anna2malai-m/", github: "https://github.com/Anna02malai", website: "https://anna02malai.github.io/" }
         }
     ];
